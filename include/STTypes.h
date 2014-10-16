@@ -64,10 +64,10 @@ typedef unsigned long   ulong;
     // if these aren't defined already by Windows headers, define now
 
 #if defined(__APPLE__)
-   typedef signed char BOOL;
+   typedef bool BOOL;
 #else
    typedef int BOOL;
-#endif 
+#endif
 
     #define FALSE   0
     #define TRUE    1
