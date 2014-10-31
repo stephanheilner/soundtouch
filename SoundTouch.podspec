@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
 	s.requires_arc = true
 	s.platform = :ios, '6.0'
 	s.library = 'c++'
+	s.framework = 'AVFoundation'
 	s.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => 'ST_NO_EXCEPTION_HANDLING IOS=1 SOUNDTOUCH_INTEGER_SAMPLES' }
 end
